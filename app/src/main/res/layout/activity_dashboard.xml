@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🚀 LearnQuest Dashboard"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- PROFILE -->
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👤 Profile"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/card_dark"
+            android:layout_marginBottom="16dp"
+            android:padding="14dp"/>
+
+        <!-- UPLOAD SECTION -->
+        <TextView
+            android:text="📤 Upload Section"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnAssignments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📤 Upload Assignments"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/card_dark"
+            android:layout_marginBottom="12dp"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/btnResources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📁 Upload Resources"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/card_dark"
+            android:layout_marginBottom="16dp"
+            android:padding="14dp"/>
+
+        <!-- VIEW SECTION -->
+        <TextView
+            android:text="📂 View Section"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnViewAssignments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📚 View Assignments"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/card_dark"
+            android:layout_marginBottom="10dp"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/btnViewResources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📁 View Resources"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/card_dark"
+            android:layout_marginBottom="10dp"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/btnViewQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📝 View Quizzes"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/card_dark"
+            android:layout_marginBottom="10dp"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/btnResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 View Results"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/card_dark"
+            android:layout_marginBottom="16dp"
+            android:padding="14dp"/>
+
+        <!-- QUIZ CREATE -->
+        <Button
+            android:id="@+id/btnQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📝 Create Quiz"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/accent"
+            android:padding="14dp"/>
+
+    </LinearLayout>
+</ScrollView>

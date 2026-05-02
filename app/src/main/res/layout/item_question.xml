@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/card_dark"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- QUESTION -->
+    <EditText
+        android:id="@+id/question"
+        android:hint="Enter Question"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:background="@color/input_bg"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- OPTIONS INPUT -->
+    <EditText
+        android:id="@+id/optionA"
+        android:hint="Option A"
+        android:layout_marginTop="10dp"
+        android:background="@color/input_bg"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/optionB"
+        android:hint="Option B"
+        android:layout_marginTop="6dp"
+        android:background="@color/input_bg"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/optionC"
+        android:hint="Option C"
+        android:layout_marginTop="6dp"
+        android:background="@color/input_bg"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/optionD"
+        android:hint="Option D"
+        android:layout_marginTop="6dp"
+        android:background="@color/input_bg"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- RADIO GROUP (ONLY FOR SELECTING ANSWER) -->
+    <RadioGroup
+        android:id="@+id/optionsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <RadioButton
+            android:id="@+id/optionA_radio"
+            android:text="Correct: A"
+            android:textColor="@color/text_primary"/>
+
+        <RadioButton
+            android:id="@+id/optionB_radio"
+            android:text="Correct: B"
+            android:textColor="@color/text_primary"/>
+
+        <RadioButton
+            android:id="@+id/optionC_radio"
+            android:text="Correct: C"
+            android:textColor="@color/text_primary"/>
+
+        <RadioButton
+            android:id="@+id/optionD_radio"
+            android:text="Correct: D"
+            android:textColor="@color/text_primary"/>
+    </RadioGroup>
+
+    <!-- MARKS -->
+    <EditText
+        android:id="@+id/marks"
+        android:hint="Marks"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:background="@color/input_bg"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- BUTTONS -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:text="❌ Remove"
+            android:layout_weight="1"
+            android:backgroundTint="@color/card_dark"
+            android:textColor="@color/text_primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnShuffleOptions"
+            android:text="🔀 Shuffle"
+            android:layout_weight="1"
+            android:backgroundTint="@color/accent"
+            android:textColor="@color/text_primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
